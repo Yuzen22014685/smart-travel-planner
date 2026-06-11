@@ -1,1 +1,107 @@
-body{font-family:Arial;max-width:800px;margin:auto;padding:20px} input,textarea{margin:5px 0;padding:8px;width:100%} button{padding:8px}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trip-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(300px, 1fr)
+  );
+  gap: 20px;
+}
+
+.trip-card,
+.detail-card,
+.weather-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,.1);
+}
+
+.trip-card:hover {
+  transform: translateY(-3px);
+  transition: 0.2s;
+}
+
+.weather-card {
+  margin-top: 20px;
+  background: #eef6ff;
+}
+
+.btn {
+  background: #2563eb;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.btn-danger {
+  background: #dc2626;
+}
+
+.card-buttons {
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.tag-container {
+  margin-top: 10px;
+}
+
+.tag {
+  display: inline-block;
+  background: #dbeafe;
+  color: #1e40af;
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin-right: 5px;
+}
+
+.form-card {
+  max-width: 600px;
+  margin: 30px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,.1);
+}
+
+.form-card h1 {
+  margin-bottom: 20px;
+}
+
+.form-card input,
+.form-card textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
