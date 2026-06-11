@@ -55,7 +55,7 @@ export default function Auth() {
 };
 
   return (
-    <div className="container">
+    <div className="login-container">
       <div className="form-box">
 
         <div className="button-box">
