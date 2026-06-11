@@ -17,9 +17,11 @@ app.use(express.json());
 // Routes
 const authRoutes = require('./routes/authRoutes');
 const tripRoutes = require('./routes/tripRoutes');
+const weatherRoutes = require('./routes/weatherRoutes');
 
 app.use('/api/auth', authRoutes);
 app.use('/api/trips', tripRoutes);
+app.use('/api/weather', weatherRoutes);
 
 // MongoDB Cloud Connection
 mongoose.connect(process.env.MONGO_URI)
