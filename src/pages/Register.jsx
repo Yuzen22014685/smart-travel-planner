@@ -1,4 +1,4 @@
-import {useState} from 'react';
+/*import {useState} from 'react';
 import {useNavigate} from 'react-router-dom';
 import API from '../services/api';
 
@@ -12,4 +12,4 @@ return <form onSubmit={submit}><h2>Register</h2>
 <input placeholder='Name' onChange={e=>s({...f,name:e.target.value})}/><br/>
 <input placeholder='Email' onChange={e=>s({...f,email:e.target.value})}/><br/>
 <input type='password' placeholder='Password' onChange={e=>s({...f,password:e.target.value})}/><br/>
-<button>Register</button></form>}
+<button>Register</button></form>}*/
