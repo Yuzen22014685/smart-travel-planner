@@ -54,7 +54,7 @@ export default function TripList() {
             <p>
               {new Date(
                 trip.startDate
-              ).toLocaleDateString()}
+              ).toLocaleDateString()} - {new Date(trip.endDate).toLocaleDateString()}
             </p>
 
             <p>{trip.notes}</p>
